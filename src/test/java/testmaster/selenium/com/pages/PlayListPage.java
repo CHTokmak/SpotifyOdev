@@ -32,7 +32,7 @@ public class PlayListPage extends Methods {
         waitBySeconds(3);
         hoverElement(By.xpath("(//div[@data-testid=\"tracklist-row\"])[2]"));
         waitBySeconds(1);
-        clickElement(By.xpath("//button[@aria-label=\"Daft Punk, Pharrell Williams, Nile Rodgers'den Get Lucky (feat. Pharrell Williams & Nile Rodgers) - Radio Edit parçasını çal\"]"));
+        clickElement(By.xpath("(//button[@class=\"RfidWIoz8FON2WhFoItU\"])[2]"));
         waitBySeconds(10);
         clickElement(By.xpath("(//button[@aria-label=\"Duraklat\"])[1]"));
         waitBySeconds(1);
